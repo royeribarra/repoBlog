@@ -1,0 +1,37 @@
+
+
+
+html{
+   /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 50% 50%, #E7E9FF 0%, #FFFFFF 70%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 50% 50%, #E7E9FF 0%, #FFFFFF 70%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 50% 50%, #E7E9FF 0%, #FFFFFF 70%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 50% 50%, #E7E9FF 0%, #FFFFFF 70%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 50% 50%, #E7E9FF 0%, #FFFFFF 70%);
+}
+
+
+
+a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+  
+  .bg-dark {
+  background: #e7e9ff !important;
+  }
+
+  .navbar-collapse{
+    justify-content: center !important;
+}
+

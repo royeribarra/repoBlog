@@ -1,0 +1,59 @@
+.blog{
+padding-top: 2rem;
+padding-bottom: 1rem;
+padding-left: 4vh;
+padding-right: 4vh;
+background: rgb(252,216,232);
+background: radial-gradient(circle, rgba(252,216,232,1) 0%, rgba(231,233,255,1) 81%);
+}
+
+.container{
+ display: flex;
+ flex-flow: column;
+ align-items: center;
+}
+
+.title{
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: calc(12px + 1.2vw + 1rem);
+  color:  #191D74 ;
+  font-weight: 700;
+}
+
+.photoContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.coverPhoto{
+  max-width: 40%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10%;
+}
+
+.authors{
+  display: grid;
+  grid-template-columns:  repeat(auto-fit, minmax(16rem, 1fr));
+  grid-auto-rows: max(15vh, 10rem);
+
+}
+
+.authors img{
+  max-width: 8rem;
+  height: 8rem;
+  border-radius: 30%;
+  margin-right: 0.5rem;
+}
+
+.date{
+align-items: flex-start;
+font-size: large;
+}
+
+.blog p{
+  font-size: calc(4px + 0.4vw + 0.8rem);
+}
