@@ -22,7 +22,10 @@ export default function BlogPost({
                     <div className={styles.details}>
                         <div className={styles.authors}>
                             {authors.map((author) => 
-                                <Author key={author.id} author = {author} />  
+                                <Author 
+                                    key={author.id} 
+                                    author={author} 
+                                />  
                             )}
                         </div>
                         <div className={styles.date}>

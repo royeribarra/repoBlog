@@ -1,10 +1,8 @@
 import styles from '../styles/Home.module.css'; 
 
 
-export default function Author({
-    key,
-   author
-}){
+export default function Author({author})
+{
 
     return(
 

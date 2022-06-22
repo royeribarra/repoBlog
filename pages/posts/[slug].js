@@ -75,7 +75,10 @@ export default function BlogPost({post}){
                 <div className={styles.content} dangerouslySetInnerHTML = {{__html: post.content.html}}></div>
                 <div className={styles.authors}>
                                 {post.authors.map((author) => 
-                                <Author author = {author} />  
+                                    <Author 
+                                        key={author.id}
+                                        author={author}  
+                                    />  
                                 )}   
                         <h6 className={styles.date}> Escrito el {post.datePublished}</h6>
                 </div>
