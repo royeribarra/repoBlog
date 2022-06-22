@@ -7,9 +7,9 @@ function Header() {
 
 <div className={styles.container}>
 
-<nav class="navBar navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class={styles.logo} href="/">
+<nav className="navBar navbar navbar-expand-lg navbar-dark bg-dark">
+  <div className="container-fluid">
+    <a className={styles.logo} href="/">
     <img
                   src="https://repo.com.pe/static/media/repologo.be247a6c.svg"
                   height="50"
@@ -17,20 +17,20 @@ function Header() {
                   alt="Repo"
                 />
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class={styles.botonesPaginas}>
-          <a class={styles.tituloNav} aria-current="page" href="https://repo.com.pe/#/servicios">¿Qué hacemos?</a>
+    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div className="navbar-nav">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <li key={1} className={styles.botonesPaginas}>
+          <a className={styles.tituloNav} aria-current="page" href="https://repo.com.pe/#/servicios">¿Qué hacemos?</a>
         </li>
-        <li class={styles.botonesPaginas}>
-          <a class={styles.tituloNav} href="https://repo.com.pe/#/ayuda">Ayuda</a>
+        <li key={2} className={styles.botonesPaginas}>
+          <a className={styles.tituloNav} href="https://repo.com.pe/#/ayuda">Ayuda</a>
         </li>
-        <li class={styles.botonesPaginas}>
-          <a class={styles.tituloNav} href="https://repo.com.pe/#/contacto">Contáctanos</a>
+        <li key={3} className={styles.botonesPaginas}>
+          <a className={styles.tituloNav} href="https://repo.com.pe/#/contacto">Contáctanos</a>
         </li>
       </ul>
       </div>
