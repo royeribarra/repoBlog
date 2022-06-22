@@ -14,10 +14,8 @@
 
 .tituloPrincipal {
   text-align: center;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 3rem;
+  padding-bottom: 0.1rem;
+  padding-top: 0.5rem;
   font-size: calc(12px + 1.2vw + 1rem);
   color:  #191D74 ;
   font-weight: 700;
