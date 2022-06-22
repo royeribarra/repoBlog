@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from '../styles/BlogCard.module.css'
+import styles from '../styles/blogCard.module.css'
 import Author from './Author'
 
 export default function BlogPost({
