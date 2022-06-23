@@ -1,0 +1,100 @@
+.nav-link{
+    text-decoration: none !important;
+    color: #191D74 !important;
+}
+
+.listaFooter{
+    list-style-type:none;
+    text-decoration: none;
+    
+    }
+
+.footer{
+    margin: 2rem;
+}
+
+
+    .paginasContacto{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr) );
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .logoRepoFooter{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .footerCentral{
+        font-weight: 650;
+        padding-top: 1rem; 
+    }
+
+    .logoRedes{
+        height: 30px;
+        align-items: center;
+
+    }
+
+    .logosFooter{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+        align-items: center;
+    }
+
+
+
+.seccionesFooter{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr) );   
+}
+
+    .titulosFooter{
+        text-align: center;
+        color: #191D74;
+    }
+
+    .listaFooter{
+        padding-left: 0;
+    }
+
+    .seccionFooter{
+        color: #191D74;
+        text-decoration: none;
+        font-weight: 400;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .lineaSuave{
+        border: #191D74;
+    }
+
+    .contenedorFooter{
+        border: solid 1px #C4C4C4;
+        background-color: #EEEEEE;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+
+    .legalFooter{
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr) );
+        list-style-type:none;
+        text-decoration: none;   
+        text-align: center;
+        
+    }
+
+
+
+    .miniTextoFooter{
+        font-size: xx-small;
+        text-align: center;
+    }

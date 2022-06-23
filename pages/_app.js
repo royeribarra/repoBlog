@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import '../styles/globals.css'
 import Script from 'next/script';
+import Footer from '../components/Footer';
 
 function MyApp({ Component, pageProps }) {
 
@@ -27,7 +28,7 @@ return (
     crossOrigin="anonymous"></Script>
 <Header/>
 <Component {...pageProps} />
-
+<Footer/>
   </div>
 
 )

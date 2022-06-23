@@ -35,3 +35,8 @@ a {
     justify-content: center !important;
 }
 
+.nav-link{
+  text-decoration: none !important;
+  color: #191D74 !important;
+  font-size: medium;
+}
