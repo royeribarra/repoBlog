@@ -8,9 +8,7 @@
   }
   .card h2 {
     text-align: center;
-    margin-bottom: 1.5rem;
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
+    margin-bottom: 0.5rem;
     font-size: calc(4px + 0.4vw + 0.8rem);
     color: #191D74;
 
@@ -31,7 +29,7 @@
   .fotoPreviewArticulo{
     object-fit: cover;
     width: 100%;
-    height: 18rem;
+    height: 12rem;
   }
   
   
@@ -45,23 +43,41 @@
   }
   
   .text {
-    padding: 1rem 3rem;
+    display: flex;
+    flex-flow: column;
+    padding: 0.5rem 0.5rem;
     justify-content: space-between;
     align-items: center;
     align-content: center;
   }
   
   .authors {
+    display:flex;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
   .authors img {
+
     max-width: 2rem;
     height: 2rem;
-    border-radius: 10%;
+    border-radius: 30%;
     margin-right: 0.5rem;
   }
 
+  .eachAuthor{
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+  }
+
+  .eachAuthor p{
+    margin-bottom: 0;
+  }
 
   
+  .dateInside{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 14px;
+  }

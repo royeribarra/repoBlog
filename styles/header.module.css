@@ -1,17 +1,51 @@
-.logo{
-    margin: 0.3rem;
+
+.navBar{
+    background-color: #E7E9FF;
 }
 
-.container{
-    background-color: #e7e9ff ;
-    padding-left: 3.5vh;
-    padding-right: 3.5vh;
+.botonesPaginas{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
+    .tituloNav{
+        color: #191D74 !important;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem;
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
 
-.tituloNav{
-color: #191D74 !important;
-padding-left: 1rem;
-padding-right: 1rem;
-}
+    .navbar-toggler{
+        color: #191D74;
+        border: none !important;
+        
+    }
+    
+    .navbar-toggler:focus {
+        color: #191D74;
+        border: none !important;
+    }
 
+    .navPrincipal{
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+        color: white !important;
+        border-radius: 28px !important;
+        background-color: #191D74 !important;
+        border-color: #191D74 !important;
+
+    }
+
+    .botonPrincipal{
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .botonSecundario{
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+    }

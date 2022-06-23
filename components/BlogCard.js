@@ -29,7 +29,7 @@ export default function BlogPost({
                             )}
                         </div>
                         <div className={styles.date}>
-                            <h3>{datePublished}</h3>
+                            <h3 className={styles.dateInside}>Elaborado el {datePublished}</h3>
                         </div>
                     </div>
                 </div>

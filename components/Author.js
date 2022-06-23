@@ -1,4 +1,4 @@
-import styles from '../styles/Home.module.css'; 
+import styles from '../styles/blogCard.module.css'; 
 
 
 export default function Author({author})
@@ -6,7 +6,7 @@ export default function Author({author})
 
     return(
 
-        <div>
+        <div className={styles.eachAuthor}>
             <img src={author.avatar.url} />
             <p>{author.name}</p>
         </div>

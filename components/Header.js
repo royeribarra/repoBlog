@@ -1,5 +1,7 @@
 import styles from '../styles/header.module.css';
 import Link from 'next/link';
+import { Navbar, Nav, Container } from "react-bootstrap";
+
 
 
 function Header() {
@@ -8,38 +10,30 @@ function Header() {
 
 <div className={styles.container}>
 
-<nav className="navBar navbar navbar-expand-lg navbar-dark bg-dark">
-  <div className="container-fluid">
-    <Link className={styles.logo} href="/">
-    <img
-                  src="https://repo.com.pe/static/media/repologo.be247a6c.svg"
-                  height="50"
-                  className={styles.logo}
-                  alt="Repo"
-                />
-    </Link>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div className="navbar-nav">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li key={1} className={styles.botonesPaginas}>
-          <Link className={styles.tituloNav} aria-current="page" href="https://repo.com.pe/#/servicios">¿Qué hacemos?</Link>
-        </li>
-        <li key={2} className={styles.botonesPaginas}>
-          <Link className={styles.tituloNav} href="https://repo.com.pe/#/ayuda">Ayuda</Link>
-        </li>
-        <li key={3} className={styles.botonesPaginas}>
-          <Link className={styles.tituloNav} href="https://repo.com.pe/#/contacto">Contáctanos</Link>
-        </li>
-      </ul>
-      </div>
-    </div>
-  </div>
-</nav>
-
-
+<Navbar collapseOnSelect expand="lg" className={styles.navBar}>
+        <Container>
+          <Navbar.Brand href="/">
+            <img
+              src="https://repo.com.pe/static/media/repologo.be247a6c7d4c7e6402eb5df1f460c14e.svg"
+              height="50"
+              className="logoNav"
+              alt="Repo"
+            />
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className={styles.botonesPaginas}>
+              <Nav.Link href="https://repo.com.pe/servicios" className={styles.tituloNav}>¿Qué hacemos?</Nav.Link>
+              <Nav.Link href="https://repo.com.pe/ayuda" className={styles.tituloNav}>Ayuda</Nav.Link>
+              <Nav.Link href="https://repo.com.pe/contacto" className={styles.tituloNav}>Contáctanos</Nav.Link>
+              <Nav.Link href="/" className={styles.tituloNav}>Blog</Nav.Link>
+            </Nav>
+            <Nav className="botonesRegistro">
+              <Nav.Link eventKey={2} href="https://dashboard.repo.com.pe/" className={styles.navPrincipal}>Iniciar sesión</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
 
      </div>
 
