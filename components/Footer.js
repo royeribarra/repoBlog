@@ -99,20 +99,23 @@ function Footer() {
             <ul className={styles.listaFooter}> 
               <li className= {styles.seccionFooter} >
                 <Nav.Link 
-                  href="https://dashboard.repo.com.pe/#/" 
-                  style={{ padding: "0px" }}
+                    className= {styles.enlaceFooter} 
+                    href="https://dashboard.repo.com.pe/#/" 
+
                 >Soy Tienda Repo</Nav.Link>
               </li>
               <li className= {styles.seccionFooter} >
                 <Nav.Link 
-                  href="https://repo.com.pe/tienda-aliada" 
-                  style={{ padding: "0px" }}
+                    className= {styles.enlaceFooter}
+                    href="https://repo.com.pe/tienda-aliada" 
+
                 >Quiero ser tienda aliada</Nav.Link>
               </li>
               <li className= {styles.seccionFooter} >
                 <Nav.Link 
-                  href="https://repo.com.pe/operador-aliado" 
-                  style={{ padding: "0px" }}
+                    className= {styles.enlaceFooter}
+                    href="https://repo.com.pe/operador-aliado" 
+
                 >Quiero ser logístico aliado</Nav.Link>
               </li>
             </ul>
@@ -122,32 +125,37 @@ function Footer() {
             <ul className={styles.listaFooter}>
               <li className= {styles.seccionFooter} >
                 <Nav.Link 
-                  href="https://repo.com.pe/seguridad" 
-                  style={{ padding: "0px" }}
+                    className= {styles.enlaceFooter}
+                    href="https://repo.com.pe/seguridad" 
+
                 >Seguridad</Nav.Link>
               </li>
               <li className= {styles.seccionFooter} >
                 <Nav.Link 
-                  href="https://repo.com.pe/ayuda" 
-                  style={{ padding: "0px" }}
+                    className= {styles.enlaceFooter}
+                    href="https://repo.com.pe/ayuda" 
+
                 >Devoluciones</Nav.Link>
               </li>
               <li className= {styles.seccionFooter} >
                 <Nav.Link 
-                  href="https://repo.com.pe/ayuda" 
-                  style={{ padding: "0px" }}
+                    className= {styles.enlaceFooter}
+                    href="https://repo.com.pe/ayuda" 
+
                 >Cambios</Nav.Link>
               </li>
               <li className= {styles.seccionFooter} >
                 <Nav.Link 
-                  href="https://repo.com.pe/libro-reclamaciones"
-                  style={{ padding: "0px" }}
+                    className= {styles.enlaceFooter}
+                    href="https://repo.com.pe/libro-reclamaciones"
+
                 >Reclamos</Nav.Link>
               </li>
               <li className= {styles.seccionFooter} >
                 <Nav.Link
-                  href="https://repo.com.pe/contacto" 
-                  style={{ padding: "0px" }}
+                    className= {styles.enlaceFooter}
+                    href="https://repo.com.pe/contacto" 
+
                 >Contáctanos</Nav.Link>
               </li>
             </ul>
@@ -158,14 +166,14 @@ function Footer() {
           <ul className={styles.legalFooter}>
             <li className={styles.seccionFooterLegal}>
               <Nav.Link 
+                className= {styles.enlaceFooter}
                 href="https://repo.com.pe/terminos-condiciones" 
-                style={{ padding: "0px" }}
               >Términos y condiciones</Nav.Link>
             </li>
             <li className={styles.seccionFooterLegal}>
               <Nav.Link 
+                className= {styles.enlaceFooter}
                 href="https://repo.com.pe/politica-privacidad" 
-                style={{ padding: "0px" }}
               >Política de privacidad</Nav.Link>
             </li>
           </ul>
