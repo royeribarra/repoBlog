@@ -12,7 +12,7 @@ function Header() {
 
 <Navbar collapseOnSelect expand="lg" className={styles.navBar}>
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="https://repo.com.pe/">
             <img
               src="https://repo.com.pe/static/media/repologo.be247a6c7d4c7e6402eb5df1f460c14e.svg"
               height="50"

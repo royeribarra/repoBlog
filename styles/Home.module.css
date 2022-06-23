@@ -17,8 +17,8 @@
 }
 
 .container{
-  padding-left: 3.5vh;
-  padding-right: 3.5vh;
+  padding-left: 3.5vw;
+  padding-right: 3.5vw;
   background: rgb(252,216,232);
   background: radial-gradient(circle, rgba(252,216,232,1) 0%, rgba(231,233,255,1) 81%);
 }
