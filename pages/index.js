@@ -52,7 +52,7 @@ export default function Home({posts}) {
 
   return (
     <div className={styles.container}>
-
+      <div className='container'>
       <Head>
         <title>Blog Repo</title>
         <meta name="description" content="Encuentra las últimas tendencias del ecommerce, servicio postventa, cambios y devoluciones tecnologíoa, statups y más temas relacionados a los servicios de Repo y a las mejores prácticas de servicio al cliente." />
@@ -74,7 +74,7 @@ export default function Home({posts}) {
       </div>
       </main>
 
-     
+      </div>
     </div>
   )
 }
