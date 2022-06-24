@@ -28,9 +28,6 @@ function Header() {
               <Nav.Link href="https://repo.com.pe/contacto" className={styles.tituloNav}>Contáctanos</Nav.Link>
               <Nav.Link href="/" className={styles.tituloNav}>Blog</Nav.Link>
             </Nav>
-            <Nav className="botonesRegistro">
-              <Nav.Link eventKey={2} href="https://dashboard.repo.com.pe/" className={styles.navPrincipal}>Iniciar sesión</Nav.Link>
-            </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
