@@ -2,7 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import {GraphQLClient, gql} from 'graphql-request';
 import BlogCard from "../components/BlogCard";
-import Header from '../components/Header';
+
 
 const graphcms = new GraphQLClient(
   "https://api-us-east-1.graphcms.com/v2/cl44y03tu24o201xl471z3j8e/master"
@@ -51,6 +51,7 @@ export async function getStaticProps(){
 export default function Home({posts}) {
 
   return (
+    
     <div className={styles.container}>
       <div className='container'>
       <Head>

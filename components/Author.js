@@ -7,7 +7,7 @@ export default function Author({author})
     return(
 
         <div className={styles.eachAuthor}>
-            <img src={author.avatar.url} />
+            <img src={author.avatar.url} alt={author.name}/>
             <p>{author.name}</p>
         </div>
       

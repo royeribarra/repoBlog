@@ -66,7 +66,7 @@ function Footer() {
         </div>
         <div className={styles.seccionesFooter}>
           <div>
-            <h4 className={styles.titulosFooter}>Búscanos en</h4>
+            <p className={styles.titulosFooter}>Búscanos en</p>
             <ul className={styles.listaFooter}>
                 <li className= {styles.seccionFooter} >
                     <Nav.Link className={styles.enlaceFooter} 
@@ -95,7 +95,7 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <h4 className={styles.titulosFooter}>Producto</h4>
+            <p className={styles.titulosFooter}>Producto</p>
             <ul className={styles.listaFooter}> 
               <li className= {styles.seccionFooter} >
                 <Nav.Link 
@@ -121,7 +121,7 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <h4 className={styles.titulosFooter}>Ayuda</h4>
+            <p className={styles.titulosFooter}>Ayuda</p>
             <ul className={styles.listaFooter}>
               <li className= {styles.seccionFooter} >
                 <Nav.Link 

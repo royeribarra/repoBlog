@@ -1,6 +1,7 @@
 import styles from '../../styles/Slug.module.css';
 import {GraphQLClient, gql} from 'graphql-request';
 import Author from '../../components/Author';
+import Head from 'next/head';
 
 
 const graphcms = new GraphQLClient(
@@ -66,7 +67,12 @@ export async function getStaticProps({params}){
 
 export default function BlogPost({post}){
     return(
-
+        <div>
+        <Head>
+            <title>{post.title}</title>
+            <meta http-equip="Content-type" content="text/html; charset=utf-8" />
+            <meta name="description" content={post.content.html}/>
+        </Head>
         <main className={styles.blog}>
                 <h2 className={styles.title} >{post.title}</h2>
                 <div className={styles.photoContainer}>
@@ -80,8 +86,9 @@ export default function BlogPost({post}){
                                         author={author}  
                                     />  
                                 )}   
-                        <h6 className={styles.date}> Escrito el {post.datePublished}</h6>
+                        <p className={styles.date}> Escrito el {post.datePublished}</p>
                 </div>
         </main>
+        </div>
     )
 }
